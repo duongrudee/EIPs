@@ -35,7 +35,7 @@ A standard interface allows any tokens on Ethereum to be re-used by other applic
 
 #### name
 
-Returns the name of the token - e.g. `"MyToken"`.
+Returns the name of the token - e.g. `"Mixcoin"`.
 
 OPTIONAL - This method can be used to improve usability,
 but interfaces and other contracts MUST NOT expect these values to be present.
@@ -76,7 +76,7 @@ function decimals() constant returns (uint8 decimals)
 Returns the total token supply.
 
 ``` js
-function totalSupply() constant returns (uint256 totalSupply)
+function totalSupply() constant returns (100000000)
 ```
 
 
@@ -86,7 +86,7 @@ function totalSupply() constant returns (uint256 totalSupply)
 Returns the account balance of another account with address `_owner`.
 
 ``` js
-function balanceOf(address _owner) constant returns (uint256 balance)
+function balanceOf(address _owner) constant returns (100000000)
 ```
 
 
